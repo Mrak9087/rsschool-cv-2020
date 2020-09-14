@@ -32,3 +32,6 @@ private void rotateClockwise(){
     }
 }
 ```
+
+## Education
+BISGU / Applied Informatics in Economics

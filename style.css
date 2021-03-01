@@ -36,6 +36,8 @@ code{
 }
 
 .general img{
+    width: 153px;
+    height: 194px;
     margin: 20px 40px;
     border-radius: 10px;
 }

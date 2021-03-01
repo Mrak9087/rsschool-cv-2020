@@ -9,10 +9,16 @@ main{
     padding: 15px;
 }
 .wrapper{
-    display: flex;
+    
     max-width: 1100px;
-    justify-content: space-around;
+    
     margin: 0 auto;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
     background-color: azure;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -55,6 +61,7 @@ code{
 .footer{
     background-color: azure;
     box-sizing: border-box;
+    max-width: 1100px;
     border-top: 3px solid black;
     display: flex;
     flex-direction: row;
@@ -94,7 +101,7 @@ code{
 }
 
 @media (max-width: 700px){
-    .wrapper{
+    .content{
         display: block;        
     }
 

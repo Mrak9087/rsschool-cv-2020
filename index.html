@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,81 +8,82 @@
 </head>
 <body>
     <main>
-        <section class="wrapper">
-            <section class="content">
-            <section class = "contacts">
-                <img src="./foto.jpg" alt="photo" width="153" height="194">
-                <h1 class = "fio">Maxim Romanenko</h1>
-                <h3>E-mail:</h3>
-                <p class = "email">maks19-88@mail.ru</p>
-                <h3>Skype:</h3> 
-                <p class = "skype">sirius5385</p>
-                <p><a href="https://github.com/mrak9087/">GitHub</a></p>
-            </section>
-
-            <section class = "information">
-                <section class = "common summary">
-                    <h2>Summary</h2>
-                    <p>For 10 years he worked as a system administrator.
-                        I have experience in programming in Delphi. 
-                        He wrote clients for working with databases: MS SQL, MySQL, Firebird. 
-                        I know SQL. Basic knowledge of Java. The institute had a course on HTMS, CSS. 
-                        After graduation, I was engaged in page layout for some time. 
-                        I love solving various puzzles. 
-                        I want to become a professional developer. 
-                        I am ready to develop in this direction.</p>
+        <div class="wrapper">
+            <div class="content">
+                <section class = "general">
+                    <img src="./foto.jpg" alt="photo" width="153" height="194">
+                    <h2 class = "fio">Maxim Romanenko</h2>
+                    <article class = "contacts">
+                        <ul class = "list_contacts">
+                            <li class = "email"><h3>E-mail:</h3> maks19-88@mail.ru</li>
+                            <li class = "skype"><h3>Skype:</h3>sirius5385</li>
+                            <li class = "git"><a href="https://github.com/mrak9087/">GitHub</a></li>
+                        </ul>
+                        
+                    </article>
                 </section>
-                <section class = "common skills">
-                    <h2>Skills</h2>
-                    <ul>
-                        <li>Delphi (Rad Studio)</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>JAVA</li>
-                        <li>SQL</li>
-                    </ul>
-                </section>
-                <section class = "common code">
-                    <h2>Code</h2>
-                    <p>
-                        <code>
 
-private void rotateClockwise(){
-    int tmp[][] = new int[SIDE][SIDE];
-    for (int i = 0; i < SIDE; i++) {
-        for (int j = 0; j < SIDE; j++) {
-            tmp[j][SIDE-i-1]=gameField[i][j];
+                <div class = "information">
+                    <section class = "common summary">
+                        <h2>Summary</h2>
+                        <p>For 10 years he worked as a system administrator.
+                            I have experience in programming in Delphi. 
+                            He wrote clients for working with databases: MS SQL, MySQL, Firebird. 
+                            I know SQL. Basic knowledge of Java. The institute had a course on HTMS, CSS. 
+                            After graduation, I was engaged in page layout for some time. 
+                            I love solving various puzzles. 
+                            I want to become a professional developer. 
+                            I am ready to develop in this direction.</p>
+                    </section>
+                    <section class = "common skills">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li>Delphi (Rad Studio)</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>JAVA</li>
+                            <li>SQL</li>
+                        </ul>
+                    </section>
+                    <section class = "common code">
+                        <h2>Code</h2>
+                        <p>
+                            <code>
+
+    private void rotateClockwise(){
+        int tmp[][] = new int[SIDE][SIDE];
+        for (int i = 0; i &lt; SIDE; i++) {
+            for (int j = 0; j &lt; SIDE; j++) {
+                tmp[j][SIDE-i-1]=gameField[i][j];
+            }
+        }
+        for (int i = 0; i &lt; SIDE; i++) {
+            for (int j = 0; j &lt; SIDE; j++) {
+                gameField[i][j]=tmp[i][j];
+            }
         }
     }
-    for (int i = 0; i < SIDE; i++) {
-        for (int j = 0; j < SIDE; j++) {
-            gameField[i][j]=tmp[i][j];
-        }
-    }
-}
-    </code>
-                    </p>
-                    
-                </section>
-                <section class = "common education">
-                    <h2>Education</h2>
-                    <p>BISGU / Applied Informatics in Economics</p>
-                </section>
-            </section>
-        </section>
-        <footer class="footer">
-            <span class="lnk"><a href="https://github.com/Mrak9087" target="blank">Mrak9087</a></span>
-            <span>2021</span>
-            <span class="logo">
-                <a href="https://rs.school/js/" target="blank">
-                    <img src="./rs_school_js.svg" alt="rs school">
-                </a>
-            </span>
-        </footer>
-    </section>
-        
-        
+        </code>
+                        </p>
+                        
+                    </section>
+                    <section class = "common education">
+                        <h2>Education</h2>
+                        <p>BISGU / Applied Informatics in Economics</p>
+                    </section>
+                </div>
+            </div>
+            <footer class="footer">
+                <span class="lnk"><a href="https://github.com/Mrak9087" target="blank">Mrak9087</a></span>
+                <span>2021</span>
+                <span class="logo">
+                    <a href="https://rs.school/js/" target="blank">
+                        <img src="./rs_school_js.svg" alt="rs school">
+                    </a>
+                </span>
+            </footer>
+         </div>
     </main>
     
 </body>
